@@ -61,7 +61,7 @@ classifier=KerasClassifier(build_fn=buildModel)
 
 parameter={
     'batch_size':[25,32],
-    'epoch':[100,500],
+    'nb_epoch':[100,500],
     'optimizer':['adam','rmsprop']
 }
 
